@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Pagina Principal</title>
+    <meta charset="utf-8" />
+    <link href="/cadastro.css" rel="stylesheet" />
+    <script type="text/javascript" src="/script.js">
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Cadastra-se</h1>
+    <form action="/Cadastrado" method="post">
+        <label style="position: relative; color: black;
+    left: 30%" for="nome">Nome:</label>
+        <input style="position: relative; color: black;
+    left: 30%" id="nome" name="nome" type="text" Maxlength="20" Title="Nome" />
+
+        </br/>
+
+        </br/>
+        <label style="position: relative; color: black;
+    left:30%" for="pwd">Senha:</label>
+        <input style="position: relative; color: black;
+    left: 30%" id="pwd" name="pwd" type="password" Maxlength="15" Minlength="8" Title="Senha" />
+
+        </br/>
+        </br/>
+
+        <label style="position: relative; color: black;
+    left: 25%" for="cpwd">Confirmar Senha:</label>
+        <input style="position: relative; color: black;
+    left: 25%" id="cpwd" name="cpwd" type="password" Maxlength="15" Minlength="8" Title="Confirmar Senha" />
+
+        </br/>
+        </br/>
+
+        <label style="position: relative; color: black;
+    left: 31%" for="cpf">CPF:</label>
+        <input style="position: relative; color: black;
+    left: 31%" id="cpf" name="cpf" type="number" Maxlength="11" Title="CPF" />
+
+        </br/>
+        </br/>
+
+
+        <label style="position: relative; color: black;
+    left: 29%" for="e-mail">E-Mail:</label>
+        <input style="position: relative; color:  black;
+    left: 29%" id="email" name="email" type="Text" Title="email" />
+
+        </br/>
+        </br/>
+
+        <label style="position: relative; color:  black;
+    left: 23%" for="DataDeNascimento">Data de Nascimento:</label>
+
+        <input style="position: relative; color:black;
+    left: 23%" id="idade" name="idade" type="date" Title="DataDeNascimento" Max="100" Min="1" />
+
+    </form>
+    </br>
+    <button style="position: relative; color: black;
+	left: 30%; width: 30%" onClick="verificar()">Criar Conta</button>
+
+</body>
+
+</html>
